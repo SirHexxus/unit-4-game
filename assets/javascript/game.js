@@ -4,7 +4,7 @@
 var targetNumber = counter = wins = losses = 0;
 var numberOptions = [0, 0, 0, 0];
 var crystalHolders = [ "#crystal-0", "#crystal-1", "#crystal-2", "#crystal-3" ];
-var imageArr = [ "assets/images/placeholder.png", "assets/images/placeholder.png", "assets/images/placeholder.png", "assets/images/placeholder.png" ];
+var imageArr = [ "assets/images/crystal1.png", "assets/images/crystal2.png", "assets/images/crystal3.png", "assets/images/crystal4.png" ];
 
     
 
