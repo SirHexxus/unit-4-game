@@ -43,7 +43,8 @@ function initialize() {
 
         // Debugging
         // console.log($(imageCrystal).attr("src"));
-        // console.log($(imageCrystal).attr("data-crystalvalue"));
+        console.log($(imageCrystal).attr("data-crystalvalue"));
+        console.log($(this).attr("data-crystalValue"));
     }
 };
 
@@ -53,7 +54,9 @@ $.when( $.ready ).then(function() {
 });
 
 // start of our actual game logic
-$(".crystal-image").on("click", function() {
+$(document).on("click", ".crystal-image", function() {
+    console.log("clicked");
+    console.log(this);
     var crystalValue = ($(this).attr("data-crystalvalue"));
     crystalValue = parseInt(crystalValue);
     counter += crystalValue;
